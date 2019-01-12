@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Andrew Jacob</title>
+</head>
+<body id="about">
+	<nav class="navbar navbar-expand-sm navbar-dark">
+		<div class="container">
+			<a href="index.html" class="navbar-brand">AJJ Studio</a>
+			
+			<div class="nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="gallery.html" class="nav-link">Gallery</a>
+					</li>
+					<li id="c" class="nav-item">
+						<a href="#contact" class="nav-link">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container text-center my-5">
+		<div class="antext">
+			<h1>Andrew Jacob</h1>
+		</div>
+		<div id="frontImg"></div>
+		<div class="row">
+			<p id="intro">All children have the innate curiosity of machines. We regard them as magic and want to know how to recreate this magic. As adults, we are encouraged to use machines but not necessarily know how they work. We just use them because they make our work easier and more efficient. My curiosity of these machines never faded, and throughout my studies it has developed into the passion to inspire curiosity and insightfulness in audiences through complex mechanics. My goal is to create a theatrical performance through each work by blending meaningless mimicries, hyperboles, and inhibitors of useful functions with realistic and physical movements. The result is a series of sculptures that mimic familiar objects but contradict their real-life-counterparts. The process of instilling interest and curiosity is long and thoroughly thought out as every piece plays a part in the performance. The performance finally comes together with the audience's interaction. As the art-audience interaction is the sole purpose of the art, it is important that the environment stimulates the appeal of the conversation between the audience and the art, and so it is crucial to set the atmosphere so the audience can experience the machine to its full extent.</p>
+			<p>A machine, as defined by Google, is “An apparatus using or applying mechanical power and having several parts, each with a definite function and together performing a particular task.” I looked up this definition because I constantly used the word in describing my work to others. My work up till now has been closely connected to this definition, and since I became conscious of the connection I purposefully apply emphasis on the machine and motion aspect. The process of creation, the mechanical parts, and the result of the action become the main scene in the performance.</p>
+		</div>
+		<br>
+		<div class="row">
+			<a id="mfa" style="margin-right: auto;margin-left: auto;" target="_blank" href="https://scholarworks.iupui.edu/handle/1805/10715">MFA Thesis</a>
+		</div>
+	</div>
+
+	<section id="contact">
+		<div class="container text-center">
+			<h2 id="enlarge">Contact</h2>
+			<hr>
+			<br>
+			<div class="row">
+				<div class="col">
+					<a target="_blank" href="https://www.instagram.com/ajjacob626/"><i class="fa fa-instagram fa-5x"></i>
+					<p>Instagram</p></a>
+				</div>
+				<div class="col">
+					<img id="ig" src="img/ig.jpg" style="padding-bottom: 0;margin-bottom: 1px;">
+					<p style="padding-top: 0;margin-top: 1px;">302-469-0159</p>
+				</div>
+				<div class="col">
+					<a target="_blank" href="mailto:andrewjmjacob@gmail.com?Subject=Sculpting%20Website" target="_top"><i class="fa fa-envelope-o fa-5x"></i>
+					<p>Email</p></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container text-center">
+			<p>Andrew Jacob | Copyright &copy; 2017 | All Rights Reserved</p>
+		</div>
+	</footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function(){
+		if(this.readyState == 4 && this.status == 200){
+
+			var jason = JSON.parse(this.responseText);
+
+			$('#frontImg').append('<img id=abc src="'+jason[0].img[0]+'">');
+		}//end if statement
+	};
+	xmlhttp.open('GET', 'projects.json', true);
+	xmlhttp.send();
+	
+	document.getElementById('c').addEventListener('click', function(){
+		document.getElementById('enlarge').style.fontSize = "80px";
+	});
+
+</script>
+</html>

@@ -1,0 +1,130 @@
+[
+	{
+		"id":"1",
+		"title":"Unknown",
+		"description":"",
+		"img":["img/unknown1.jpg", "img/unknown2.png", "img/unknown3.jpg", "img/unknown4.jpg"],
+		"yt":"https://www.youtube.com/embed/l54V9EzXNv8"
+	},
+	{
+		"id":"2",
+		"title":"Section 1.4",
+		"description":"",
+		"img":["img/section1.41.jpg", "img/section1.42.jpg", "img/section1.43.jpg"],
+		"yt":"https://www.youtube.com/embed/e2W_IFZ6FZc"
+	},
+	{
+		"id":"3",
+		"title":"Nut Oblitorator",
+		"description":"Oblitorates nuts",
+		"img":["img/nut1.png", "img/nut2.png", "img/nut3.png"],
+		"yt":"https://www.youtube.com/embed/of14g7VHC1Q"
+	},
+	{
+		"id":"4",
+		"title":"Jack Hammer",
+		"description":"...that doesn't jack shit",
+		"img":["img/jack1.png", "img/jack2.png"]
+	},
+	{
+		"id":"5",
+		"title":"Touch My Tentacle",
+		"description":"",
+		"img":["img/tentacle1.png", "img/tentacle2.png"],
+		"yt":"https://www.youtube.com/embed/MVc1qGmFUhw"
+	},
+	{
+		"id":"6",
+		"title":"Space",
+		"description":"",
+		"img":["img/space1.jpg", "img/space2.jpg", "img/space3.jpg"]
+	},
+	{
+		"id":"7",
+		"title":"Satellite",
+		"description":"",
+		"img":["img/satellite1.jpg", "img/satellite2.jpg", "img/satellite3.jpg"]
+	},
+	{
+		"id":"8",
+		"title":"Regulation",
+		"description":"",
+		"img":["img/regulation1.jpg", "img/regulation2.jpg", "img/regulation3.jpg"]
+	},
+	{
+		"id":"9",
+		"title":"Kodoa",
+		"description":"<p>Wood and Steel | 2'x2'x4'</p><p>This sculpture is was inspired from two Japanese instruments: The Shamisen (a three string instrument) and Kodo Drum. Kodoa’s structure is based off of the components of both instruments. As it stretches across two walls, it takes the form of a drum, but the sound of the drum comes from guitar strings.<p>There are two separate parts of this piece: One side rotates a hammer and plucks the strings and the other side rotates and changes the tone of the strings, both of which are driven by gears. The audience can interact with each opposing side by rotating a crank.<br>Kodoa is all about communication between two people. One could rotate the hammer alone, but the conversation would remain monotonic. The piece will not function fully without a second person changing the tone or ‘creating a conversation’.</p>",
+		"img":["img/kodoa1.jpg", "img/kodoa2.jpg", "img/kodoa3.jpg"]
+	},
+	{
+		"id":"10",
+		"title":"Phase Sense",
+		"description":"<p>Sound Sculpture | Wood & Spring steel | 8 x 9 x 7</p><p>The Kalimba is an African musical instrument. This instrument usually takes the form of a small box or can be made using a gourd. It is only played by one person. Phase Sense uses the musical elements of a Kalimba, but is very different. In designing this piece, I have re-structured the elements of the traditional Kalimba, and transformed it into a new instrument.</p><p>This spherical Kalimba symbolizes the global dimension of humanity. It is made of colored exotic hard woods, which symbolize the riches that humanity offers. It is played by not one but two players, who cradle the sphere together and play across from, and off of one another, creating a dialog and building a bridge across distances and differences.</p>",
+		"img":["img/phasesense1.jpg", "img/phasesense2.jpg", "img/phasesense3.jpg"],
+		"yt":"https://www.youtube.com/embed/TtXVjSWJmcY"
+	},
+	{
+		"id":"11",
+		"title":"Overload",
+		"description":"<p>Sound Installation | Steel, Piano Wire, Wood | 132 x 84 x120</p><p>The concept for this piece began with the idea of a grand piano, which could be dissected and reconstructed along with the sounds of computer fans running at high speeds inside of overheating computers. Overload is an installation that takes over an entire space. As a result, it can be compared to standing inside of an instrument.</p>",
+		"img":["img/overload1.jpg", "img/overload2.jpg"],
+		"yt":"https://www.youtube.com/embed/DIbFzjpDEcs"
+	},
+	{
+		"id":"12",
+		"title":"Alone in Introspection",
+		"description":"<p>Sound Installation | Cement, Steel, Aluminum | 96 x 96 x 144</p><p>In a state of meditation, a person has the ability to concentrate on specific senses in order to improve awareness of their surroundings. If how much one can see and hear is limited, one can then be able to deliberately concentrate on those limitations.</p><p>Alone in Introspection revolves around this idea and invites an individual to the center to experience this sensation. The dome resembles a closed space where the individual’s mind can be alone and the pipes are extensions of the mind reaching out into the surroundings.",
+		"img":["img/alone1.jpg", "img/alone2.jpg", "img/alone3.jpg"]
+	},
+	{
+		"id":"13",
+		"title":"Phase",
+		"description":"<p>Sound Installation | Wood, Piano Wire | 96 x 144 x 138</p><p>Phase is an installation which mimics two pianos sitting across from one another. The purpose of this piece is for two musicians to perform ‘The Piano Phase’ by Steve Reich.</p><p>The audience can interact with the sounds and vibrations from the resonators on the walls and on the floor, or simply sit on the floor listening to the sounds produced.</p>",
+		"img":["img/phase1.jpg", "img/phase2.jpg", "img/phase3.jpg", "img/phase4.jpg", "img/phase5.jpg"],
+		"yt":"https://www.youtube.com/embed/EnZFLQkW978"
+	},
+	{
+		"id":"14",
+		"title":"Vibes in the Void",
+		"description":"<p>Wood & Steel | 96 x 36 x 384</p><p>Prototype for Phase</p>",
+		"img":["img/void1.jpg", "img/void2.jpg"]
+	},
+	{
+		"id":"15",
+		"title":"Continuity",
+		"description":"<p>Sound Sculpture | Copper, Aluminum, Steel | 60 x 24 x 18</p><p>Continuity represents the notion of a continuous life through repurposing an object and adding another element. This piece is constructed from old water heater pipes and transformed into an instrument of sound.</p>",
+		"img":["img/continuity1.jpg", "img/continuity2.jpg", "img/continuity3.jpg"],
+		"yt":"https://www.youtube.com/embed/mJCJjAm3LWk"
+	},
+	{
+		"id":"16",
+		"title":"Echo",
+		"description":"<p>Steel, Wood, Plastic | 24 x 60 x 18</p><p>Echo represents the sound waves of an echo frozen in time. Viewers interact by speaking in both ends of the piece.</p>",
+		"img":["img/low1.jpg", "img/low2.jpg", "img/low3.jpg"]
+	},
+	{
+		"id":"17",
+		"title":"New Creation",
+		"description":"Taking form of the Mobuis strip, this piece is based on a concept of new creation within its original creation. Reflecting all surfaces in its surroundings, the mirrors represent all of our ideas that form throughout our lives that gather together into something completely new.",
+		"img":["img/newcreation1.jpg", "img/newcreation2.jpg", "img/newcreation3.jpg"]
+	},
+	{
+		"id":"18",
+		"title":"Deception",
+		"description":"<p>Steel | 11' x 5' x 2'</p><p>Deception is based on the idea of perception being a lie. We each have our own beliefs of what is true, but things are not always how they seem. For example, we are not able to explain what gravity is, but we just 'know' that it exists.</p><p>In Deception, my intention is to emphasize this idea. I wanted to create an illusion by using a solid and heavy weight element and present it in a way that deceives the eye.</p>",
+		"img":["img/deception1.jpg", "img/deception2.jpg", "img/deception3.jpg", "img/deception4.jpg"]
+	},
+	{
+		"id":"19",
+		"title":"True Love",
+		"description":"Found objects, Steel, Cast Iron, Copper, Mirror, Glass, Plastic",
+		"img":["img/truelove1.jpg", "img/truelove2.jpg", "img/truelove3.jpg", "img/truelove4.jpg"]
+	},
+	{
+		"id":"20",
+		"title":"Emergence",
+		"description":"This piece is based on the concept of people punching and stretching through a wall from the opposite side; coming from a non-existing space. My intention was to capture a frame - to freeze a moment of action.",
+		"img":["img/emergence1.jpg", "img/emergence2.jpg", "img/emergence3.jpg", "img/emergence4.jpg"]
+	}
+]
